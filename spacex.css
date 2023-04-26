@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-image: url(spacex/images/spacex1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;;
+    padding-top: 35px;
+    padding-left: 45px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 280px;
+    
+}
+.nav-logo img{
+    width: 210px;
+}
+.nav-head{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    margin-right: 130px;
+    gap: 30px;
+}
+.nav-end{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 50px;
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    align-items: center;
+}
+.nav-end-shop{
+    padding-right: 20px;
+}
+.nav-end-menu{
+    width: 5px;
+}
+.starship{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.starship-text1{
+    font-size: 20px;
+    line-height: 38px;
+}
+.starship-text2{
+    font-size: 48px;
+    line-height: 40px;
+    max-width: 550px;
+    margin-bottom: 50px;
+    
+} 
+.starship-btn button{
+    padding: 15px 40px 15px 40px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-size: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 4.95rem;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    background-image: url(spacex/images/spacex2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    padding-left: 45px;
+    /* padding-bottom: 200px; */
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.starship2{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 380px;
+}
+.starship-btn2 button{
+    padding: 15px 50px 15px 50px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-size: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 3.8rem;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    background-image: url(spacex/images/spacex3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    padding-left: 45px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /* padding-bottom: 200px; */
+}
+.starship3{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 310px;
+    padding-bottom: 70px;
+}
+.starship-btn3 button{
+    padding: 15px 30px 15px 30px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-size: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1.3rem;
+}
+.container4{
+    display: flex;
+    flex-direction: column;
+    background-image: url(spacex/images/spacex4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    padding-left: 45px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    /* padding-bottom: 200px; */
+}
+.starship4{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 322px;
+    padding-bottom: 50px;
+    padding-bottom: 40px;
+}
+.starship-btn4 button{
+    padding: 15px 30px 15px 30px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-size: 15px;
+    /* padding-bottom: 10px; */
+    
+}
+.starship4-text{
+    font-size: 48px;
+    line-height: 50px;
+    max-width: 550px;
+}
+footer{
+    display: flex;
+    justify-content: space-around  ;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    
+}
+.container-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-head .head{
+    color: gray;
+    font-size: 12px;
+}
+.footer-social li{
+    display: inline-block;  
+    padding-left: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+button{
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+button:hover{
+    color: #000;
+    background-color: #fff;
+    transition-property:  background-color;
+    transition-duration: .5s;
+} 
+.nav-head div:hover{
+border-bottom: 2px solid #fff;
+}
